@@ -1,3 +1,7 @@
+# Pre-Lecture materials
+
+* https://www.youtube.com/watch?v=-5wpm-gesOY
+
 # Intro
 
 * ISO-8601
