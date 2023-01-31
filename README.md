@@ -24,3 +24,11 @@ const result = zonedTimeToUtc(someDateFromServer, 'Europe/Berlin');
 // Now you can format `result` and it will show it in the browser's timezone.
 format(result, 'dd MMM yyyy HH:mm:ss')
 ```
+
+-------------
+
+time formats iso8601
+universal time
+format just a date
+format a date-time in the browsers timezone
+format a date-time in some other timezone
