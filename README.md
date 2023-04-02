@@ -38,7 +38,7 @@ import { zonedTimeToUtc, format } from 'date-fns-tz';
 // We get a date from the server.
 const someDateFromServer = new Date('2023-01-31T05:00:00');
 // We find out from some BA that this is actually Berlin time.
-// We convert it to UTC with a given timezone.
+// We reinterpret it to UTC with a given timezone.
 const result = zonedTimeToUtc(someDateFromServer, 'Europe/Berlin');
 // Now you can format `result` and it will show it in the browser's timezone.
 format(result, 'dd MMM yyyy HH:mm:ss')
