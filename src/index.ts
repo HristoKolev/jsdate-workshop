@@ -2,10 +2,10 @@ import { addDays, format, subMonths } from 'date-fns';
 import { utcToZonedTime, zonedTimeToUtc } from 'date-fns-tz';
 
 /**
- * Format the short date in the current timezone.
+ * Format the date in the current timezone.
  */
 export const exercise1 = (date: string): string =>
-  format(new Date(`${date}T00:00`), 'dd MMM yyyy');
+  format(new Date(`${date}T00:00`), 'dd MMM yyyy, HH:mm');
 
 /**
  * Format the UTC date in the current timezone.
