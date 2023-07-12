@@ -1,7 +1,7 @@
 import { exercise1, exercise2, exercise3, exercise4, exercise5 } from '~index';
 
 test('exercise1', () => {
-  expect(exercise1('2023-04-05')).toMatchInlineSnapshot(`"05 Apr 2023"`);
+  expect(exercise1('2023-04-05')).toMatchInlineSnapshot(`"05 Apr 2023, 00:00"`);
 });
 
 test('exercise2', () => {

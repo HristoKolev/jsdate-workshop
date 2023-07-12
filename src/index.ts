@@ -1,5 +1,5 @@
 /**
- * Format the short date in the current timezone.
+ * Format the date in the current timezone.
  */
 export const exercise1 = (date: string): string => {
   throw new Error('Not implemented.');
